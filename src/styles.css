@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.grid {
+    margin: 0 !important;
+}
+
+[data-amplify-authenticator] {
+    --amplify-components-authenticator-router-box-shadow: 0 0 16px var(--amplify-colors-overlay-10);
+    --amplify-components-authenticator-router-border-width: 0;
+    --amplify-components-authenticator-form-padding: var(--amplify-space-xs) var(--amplify-space-xxl) var(--amplify-space-xs) var(--amplify-space-xxl);
+    --amplify-components-button-primary-background-color: var(--amplify-colors-neutral-100);
+    --amplify-components-fieldcontrol-focus-box-shadow: 0 0 0 2px var(--amplify-colors-purple-60);
+    --amplify-components-tabs-item-color: var(--amplify-colors-neutral-80);
+    --amplify-components-tabs-item-active-color: var(--amplify-colors-purple-100);
+    --amplify-components-button-link-color: var(--amplify-colors-green-60);
+}
+
+.amplify-button--primary {
+    background: linear-gradient(to right,
+            #61E4A4,
+            #38BB9F);
+}
+
+[data-amplify-authenticator] [data-amplify-router] {
+    border-bottom-right-radius: var(--amplify-radii-large);
+    border-bottom-left-radius: var(--amplify-radii-large);
+}
+
+.amplify-field-group__field-wrapper .amplify-input {
+    border-right: none;
+}
+
+
+.amplify-tabs__item {
+    font-weight: normal;
+    font-size: 16px;
+}
+.amplify-tabs__item--active {
+    border-color: #38BB9F;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.federated-sign-in-button,
+.amplify-input {
+    border-color: #0000001a;
+    font-size: 14px;
+}
+
+.amplify-input:focus {
+    border-color: #38BB9F ;
+    box-shadow: none;
+}
+
+.amplify-tabs__item:hover {
+    background: #38bb9f14;
+}
+
+.amplify-field-group__outer-end .amplify-field-group__control:focus {
+    border-color: none;
+}
+
+.amplify-field-group:hover {
+    border-color: #38BB9F ;
+}

@@ -1,0 +1,10 @@
+.boxImgLogin {
+    background: #00a884c7;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.boxImgLogin img {
+    width: 30%;
+    height: auto;
+}
